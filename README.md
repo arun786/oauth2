@@ -5,6 +5,8 @@ It is an Authorization framework, also called as delegated authorization framewo
 
 ## General Flow in OAuth2.0
 
+![Flow](https://github.com/arun786/oauth2/blob/main/src/main/resources/oauthflow.png)
+
 ## Types of Clients
 
     Types of Clients
@@ -13,7 +15,9 @@ It is an Authorization framework, also called as delegated authorization framewo
     from an Authorization Server.
     
     2. Public Clients - These type of Client, they cannot keep the ClientId and the Secret key safe.
-    
+
+![Clients](https://github.com/arun786/oauth2/blob/main/src/main/resources/client.png)
+
 ## Different Types of Access token
    
    1. Identifier Type - its just a Token.
@@ -39,3 +43,9 @@ It is an Authorization framework, also called as delegated authorization framewo
     Deprecated
     1. Implicit Flow
     2. Password Flow# oauth2
+
+![Type](https://github.com/arun786/oauth2/blob/main/src/main/resources/grant_type.png)
+
+## OpenId
+
+![OpenId](https://github.com/arun786/oauth2/blob/main/src/main/resources/openid.png)
